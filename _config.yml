@@ -10,6 +10,8 @@ title: Application Layouts with Flex Box
 email: design@ianwremmel.com
 description: >
   Application Layouts with Flex Box
+baseurl: "flexbox-layouts"
+url: "https://ianwremmel.github.io/" # the base hostname & protocol for your site
 twitter_username: ianwremmel
 github_username:  ianwremmel
 
