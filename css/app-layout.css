@@ -1,0 +1,39 @@
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column > :not(.scrollable) {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.scrollable {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  overflow-y: scroll;
+}
+
+.fixed {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.expandable {
+  flex-grow: 1;
+}
+
+.compressible {
+  flex-shrink: 1;
+}

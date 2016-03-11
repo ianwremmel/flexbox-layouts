@@ -1,0 +1,44 @@
+html {
+  /* Set the root font size such that 1.0rem === 10px*/
+  font-size: 62.5%;
+
+  /* Prevent browser overscroll effect */
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-size: 1.4rem;
+
+  font-family: "Helvtica Neueu", "Helvetica", "Arial", "sans-serif"
+}
+
+.app {
+  background-color: yellow;
+}
+
+.sidenav {
+  background-color: darkgray;
+  width: 10rem
+}
+
+.sidebar {
+  background-color: red;
+  width: 20rem
+}
+
+.main {
+  background-color: pink;
+}
+
+.header {
+  background-color: green;
+}
+
+.body {
+  background-color: white;
+}
+
+.footer {
+  background-color: blue;
+}
