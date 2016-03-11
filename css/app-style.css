@@ -39,6 +39,11 @@ body {
   background-color: white;
 }
 
+.content-panel {
+  background-color: purple;
+  width: 20rem;
+}
+
 .footer {
   background-color: blue;
 }

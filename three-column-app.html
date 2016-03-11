@@ -2,24 +2,22 @@
 layout: app
 ---
 <div class="app container">
-  <div class="sidenav column fixed">
+  <div class="sidenav column">
     <span>sidenav (no scrolling here because, come on, feature creep sucks)</span>
   </div>
-  <div class="sidebar column fixed">
+  <div class="sidebar column">
     <div class="sidebar-header">sidebar</div>
     <div class="sidebar-content scrollable">
       {% include column-filler.html %}
     </div>
   </div>
   <div class="main column expandable">
-    <!-- <div class="main-inner"> -->
-      <div class="header">
-        <span>header</span>
-      </div>
-      <div class="body scrollable">
-        {% include column-filler.html %}
-      </div>
-      <div class="footer">footer</div>
-    <!-- </div> -->
+    <div class="header">
+      <span>header</span>
+    </div>
+    <div class="body scrollable">
+      {% include column-filler.html %}
+    </div>
+    <div class="footer">footer</div>
   </div>
 </div>

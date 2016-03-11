@@ -1,0 +1,45 @@
+---
+layout: app
+---
+<div class="app container">
+  <div class="sidenav column">
+    <span>sidenav (no scrolling here because, come on, feature creep sucks)</span>
+  </div>
+  <div class="sidebar column">
+    <div class="sidebar-header">sidebar</div>
+    <div class="sidebar-content scrollable">
+      {% include column-filler.html %}
+    </div>
+  </div>
+
+  <div class="main column expandable">
+    <div class="header">
+      <span>header</span>
+    </div>
+
+    <div class="container shrinkable expandable">
+      <div class="column expandable">
+        <div class="body scrollable">
+          {% include column-filler.html %}
+        </div>
+
+        <div class="footer">
+          <span>footer</span>
+        </div>
+      </div>
+
+      <div class="content-panel column">
+        <div>
+          links
+        </div>
+        <div>
+          other content
+        </div>
+        <div class="expandable scrollable">
+          {% include column-filler.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -13,15 +13,7 @@ html, body, .container {
   flex-direction: column;
 }
 
-.column > :not(.scrollable) {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
 .scrollable {
-  flex-grow: 1;
-  flex-shrink: 1;
-
   overflow-y: scroll;
 }
 
